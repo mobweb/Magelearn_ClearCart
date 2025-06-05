@@ -7,7 +7,7 @@ define([
     'use strict';
 
     return Component.extend({
-        confirmMessage: $.mage.__('Are you sure you would like to remove all items from the shopping cart?'),
+        confirmMessage: $.mage.__('Are you sure you want to remove all items from your shopping cart?'),
         emptyCartUrl: window.checkout.emptyMiniCart,
 
         emptyCartAction: function (element) {
